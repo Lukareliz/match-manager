@@ -1,17 +1,23 @@
+import { useState } from 'react'
 import HeaderMenu from './components/HeaderMenu/Index'
 import ScoreBoard from './components/ScoreBoard/Index'
 
 import './App.css'
 
 function App() {
-  // const [count, setCount] = useState(0)
-  // onClick={() => setCount((count) => count + 1)}
+  const [countRed, setCountRed] = useState(0)
+  const [countBlue, setCountBlue] = useState(0)
+
+  const resetCounts = () => {
+    setCountRed(0);
+    setCountBlue(0);
+  }
 
   return (
     <>
-      <HeaderMenu />
+      <HeaderMenu resetCounts={resetCounts}/>
       <main>
-        <ScoreBoard />
+        <ScoreBoard countRed={countRed} setCountRed={setCountRed} countBlue={countBlue} setCountBlue={setCountBlue}/>
       </main>
     </>
   )
