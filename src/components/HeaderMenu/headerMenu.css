@@ -1,0 +1,23 @@
+.header-menu {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    width: 50%;
+    height: 80px;
+    border-radius: 0 0 15px 15px;
+}
+
+button {
+    background: none;
+    color: white;
+    border: none;
+}
+
+.header-menu-icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}

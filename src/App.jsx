@@ -1,3 +1,5 @@
+import HeaderMenu from './components/HeaderMenu/Index'
+
 import './App.css'
 
 function App() {
@@ -6,6 +8,7 @@ function App() {
 
   return (
     <>
+      <HeaderMenu />
     </>
   )
 }
