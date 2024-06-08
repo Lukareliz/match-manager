@@ -7,9 +7,9 @@ import '../HeaderMenu/headerMenu.css'
 const HeaderMenu = () => {
   return (
     <header className="header-menu">
-      <button><IoRefresh className="header-menu-icon"/></button>
-      <button><IoPauseOutline className="header-menu-icon"/></button>
-      <button><IoShuffleOutline className="header-menu-icon"/></button>
+      <button className="header-menu-button"><IoRefresh className="header-menu-icon"/></button>
+      <button className="header-menu-button"><IoPauseOutline className="header-menu-icon"/></button>
+      <button className="header-menu-button"><IoShuffleOutline className="header-menu-icon"/></button>
     </header>
   )
 }

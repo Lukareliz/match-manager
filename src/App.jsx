@@ -1,4 +1,5 @@
 import HeaderMenu from './components/HeaderMenu/Index'
+import ScoreBoard from './components/ScoreBoard/Index'
 
 import './App.css'
 
@@ -9,6 +10,9 @@ function App() {
   return (
     <>
       <HeaderMenu />
+      <main>
+        <ScoreBoard />
+      </main>
     </>
   )
 }

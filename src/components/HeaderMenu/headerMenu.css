@@ -6,11 +6,11 @@
     justify-content: space-around;
     background-color: black;
     width: 50%;
-    height: 80px;
+    height: 60px;
     border-radius: 0 0 15px 15px;
 }
 
-button {
+.header-menu-button {
     background: none;
     color: white;
     border: none;
@@ -20,4 +20,8 @@ button {
     width: 40px;
     height: 40px;
     cursor: pointer;
+}
+
+.header-menu-icon:active {
+    color: #A1FF75;
 }
